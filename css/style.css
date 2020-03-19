@@ -78,7 +78,33 @@ h2{
 .features{
 
 }
+.title{
+    padding-top: 117px;
+    width: 900px;
+   text-align: center;
+   margin: 0 auto;
+   padding-bottom: 5px;
+}
+.title__main{
+    font-size: 32px;
+}
+.title__text{
+    font-size: 20px;
+}
+.feature__icon{
+    font-size: 3em;
+    color: #740707;
+    margin-right: 37px;
+}
+.feature__title{
 
+}
+.feature__text{
+    color: #a7a7a7;
+}
+.feature{
+    padding-top: 80px;
+}
 /* input-email */
 
 /* footer */
