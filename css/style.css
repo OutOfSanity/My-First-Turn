@@ -24,7 +24,7 @@ h2{
     padding-bottom: 105px;
 }
 .logo{
-    padding-left: 18px;
+    display: block;
     padding-top: 60px;
 }
 .menu{
@@ -80,7 +80,7 @@ h2{
 }
 .title{
     padding-top: 117px;
-    width: 900px;
+    /* width: 900px; */
    text-align: center;
    margin: 0 auto;
    padding-bottom: 5px;
@@ -154,4 +154,87 @@ h2{
     color: #ffffff;
     text-align: center;
     font-size: 16px;
+}
+/* breakpoints */
+@media (max-width: 1200px){
+    .menu__item {
+        font-weight: 700;
+        padding-top: 75px;
+        margin: 0 10%;
+        margin-bottom: 0px;
+    }
+    .container{
+        width: 90%;
+    }
+}
+@media (max-width: 1030px){
+   
+    /* .menu__item {
+        font-weight: 700;
+        padding-top: 75px;
+        margin: 0 40px;
+        margin-bottom: 0px;
+    } */
+    .menu{
+        width: 90%;
+    }
+}
+@media (max-width: 992px){
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .menu{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .menu__item {
+        font-weight: 700;
+        padding-top: 75px;
+        margin: 0 40px;
+        margin-bottom: 0px;
+    }
+    .menu__item a {
+       font-size: 30px;
+    }
+    .offer{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .offer__text {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        margin-top: 15px;
+        color: #555555;
+        width: 53%;
+    }
+    .icons {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .icons__item{
+        margin: auto;
+    }
+    .form__btn{
+        margin-top: 2%;
+    }
+}
+@media (max-width: 768px){
+    .logo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .form__input {
+        width: 100%;
+    }
+}
+@media (max-width: 576px){
+   
+}
+@media (max-width: px){
+   
 }
